@@ -2,7 +2,7 @@
   "name": "Tranforme texto",
   "version": "1.0",
   "manifest_version": 3,
-  "description": "Extensão para tranformar seus textos em letras Maiusculas e Minusculas",
+  "description": "Extensão para tranformar seus textos em letras Maiusculas e minusculas",
   "action": {
     "default_popup": "index.html"
   }

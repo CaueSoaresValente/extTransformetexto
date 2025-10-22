@@ -1,0 +1,50 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 1px solid rgba(206, 206, 206, 0.452);
+    padding: 25px;
+    background-color: rgb(251, 251, 252);
+    margin-top: 10px;
+}
+.container:hover{
+    transition: all ease-in 3ms;
+    padding: 30px;
+    box-shadow: 3px 5px 5px 0px rgba(0, 0, 0, 0.24);
+    border: 1px solid rgba(206, 206, 206, 0.021);
+    
+}
+input{
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 3px 5px 5px 0px rgba(0, 0, 0, 0.24);
+    font-weight: bold;
+    margin-top: 25px;
+}
+button:active{
+    position: relative;
+    top: 1px;
+}
+button{
+    background-color: rgb(51, 51, 202);
+    color: aliceblue;
+    border-radius: 15px;
+    padding: 15px;
+    border: 1px solid rgb(160, 169, 248);
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.24);
+    font-weight: bolder;
+}
+button:hover{
+    background-color: rgb(232, 232, 245);
+    color:  rgb(51, 51, 202);
+    border: 1px solid rgb(51, 51, 202);
+}
+p{
+    font-weight: bold;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
